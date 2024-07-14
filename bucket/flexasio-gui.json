@@ -15,5 +15,11 @@
   "uninstaller": {
     "file": "unins000.exe",
     "args": "/S"
-  }
+  },
+  "shortcuts": [
+    [
+      "FlexASIOGUI.exe",
+      "FlexASIO GUI"
+    ]
+  ]
 }
