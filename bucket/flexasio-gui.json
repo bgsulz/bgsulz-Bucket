@@ -4,4 +4,5 @@
   "url": "https://github.com/flipswitchingmonkey/FlexASIO_GUI/releases/download/v0.35/FlexASIO.GUIInstaller_0.35.exe",
   "bin": "FlexASIO.GUIInstaller_0.35.exe",
   "license": "MIT",
+  "homepage": "https://github.com/flipswitchingmonkey/FlexASIO_GUI"
 }
