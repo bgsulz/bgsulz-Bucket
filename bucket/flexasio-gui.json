@@ -9,7 +9,8 @@
     "file": "FlexASIO.GUIInstaller_0.35.exe",
     "args": [
       "/SILENT",
-      "/DIR=$dir"
+      "/DIR=$dir",
+      "/NOICONS"
     ]
   },
   "uninstaller": {
