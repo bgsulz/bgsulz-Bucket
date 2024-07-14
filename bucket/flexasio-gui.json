@@ -8,13 +8,13 @@
   "installer": {
     "file": "FlexASIO.GUIInstaller_0.35.exe",
     "args": [
-      "/S",
-      "/D=$dir"
+      "/SILENT",
+      "/DIR=$dir"
     ]
   },
   "uninstaller": {
     "file": "unins000.exe",
-    "args": "/S"
+    "args": "/SILENT"
   },
   "shortcuts": [
     [
