@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.20/T3-Code-0.0.20-x64.exe#/dl.7z",
-            "hash": "sha512:8f6a3f47d42db490efea7a82b989ff963954fbe9dd9ddac09fa433a284cc91281b6000f004291a601e8cfe85338513377361032119a6068d6b676d52dd370450"
+            "hash": "sha512:1ee9670af6873c9871a85c349b8615e0d5e1515088faccd1b4d3a7bba885791239b242d52314e43ee380c256cba080c2df0d883dd7e9bf48055ddd796421b30b"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
@@ -27,7 +27,7 @@
                 "url": "https://github.com/pingdotgg/t3code/releases/download/v$version/T3-Code-$version-x64.exe#/dl.7z",
                 "hash": {
                     "url": "https://github.com/pingdotgg/t3code/releases/download/v$version/latest.yml",
-                    "regex": "sha512:\\s+$base64"
+                    "regex": "url:\\s+T3-Code-$version-x64\\.exe\\s+sha512:\\s+$base64"
                 }
             }
         }
