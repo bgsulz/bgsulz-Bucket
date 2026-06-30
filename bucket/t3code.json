@@ -1,12 +1,12 @@
 {
-    "version": "0.0.27",
+    "version": "0.0.28",
     "description": "A minimal web GUI for coding agents",
     "homepage": "https://t3.codes",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.27/T3-Code-0.0.27-x64.exe#/dl.7z",
-            "hash": "sha512:d23bf4d49bc9cfb32f37b5d55e0c9ddce95e0633a57c31a77f4efc65dbe568d291e2b9a3e48f638912fa337a5b58d180cd977ef7f4fbc30635bad69c96b997a9"
+            "url": "https://github.com/pingdotgg/t3code/releases/download/v0.0.28/T3-Code-0.0.28-x64.exe#/dl.7z",
+            "hash": "sha512:7f196ccba952ea3f6dcf3f8c2b9ea66bf0ee32689b4faa7492038142b914e10ca365107a9567b3fa238b812377df4ef1a0a0b7288d694c4b53322216a7a63eba"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
