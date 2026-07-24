@@ -12,13 +12,13 @@
     "pre_install": "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
     "shortcuts": [
         [
-            "T3 Code (Alpha).exe",
+            "T3 Code (Nightly).exe",
             "T3 Code Nightly"
         ]
     ],
     "bin": [
         [
-            "T3 Code (Alpha).exe",
+            "T3 Code (Nightly).exe",
             "t3code-nightly"
         ]
     ],
